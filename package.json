@@ -1,10 +1,8 @@
 {
-  "name": "open-pro-html",
-  "description": "Open PRO HTML template - Cruip.com",
+  "name": "stoic-app",
+  "description": "StoicApp",
   "version": "1.0.0",
-  "homepage": "https://cruip.com",
-  "author": "Pasquale Vitiello",
-  "license": "https://cruip.com/terms/",
+  "author": "Nisarg Patel",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js",
     "start:dist": "cross-env NODE_ENV=production webpack-dev-server --config ./config/webpack.config.js && http-server ./dist -o",
